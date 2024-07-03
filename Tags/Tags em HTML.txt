@@ -1,0 +1,83 @@
+=======================================================================================================
+TAGS EM HTML QUE ADICIONAM TEXTOS
+=======================================================================================================
+-------------------------------------------------------------------------------------------------------
+Tags para escrever ou adionar alguma descrição:
+-------------------------------------------------------------------------------------------------------
+<h1> = Titulo
+<p> = Conteudo
+<br> = Quebra de linha
+<hr> = Linha
+<abbr title="(informação)"> = Adicionar uma informação
+<ol style="list-style: (Escolha);"> = Criar uma lista ordenadas
+<ul> = Criar uma lista sem ordem
+<li> = Adicionar uma coisa para lista
+<dl> = É como se fosse um dicionario
+<dt> = Termo 
+<dd> = Discrição
+<a href="(Link do site)" target="_blank" rel="(Escolhas)"> = Direncionar para outro site
+ - rel="next"  para link da página seguinte;
+ - rel="prev"  para link da página anterior;
+ - rel="nofollow"  informa ao navegador que você não dá aval à página;
+ - target="_self"  indica que o link será aberto na mesma guia (opcional);
+
+=======================================================================================================
+TAGS EM HTML QUE ADICIONAM AUDIOS E VIDEOS
+=======================================================================================================
+-------------------------------------------------------------------------------------------------------
+Tags para criar variações caso a primeira opção falhe:
+-------------------------------------------------------------------------------------------------------
+<picture> = Permite que vc crie varios sources
+<source> =  Vc pode alterar as imagens ou audios de acordo com a tela ou com navegador
+
+-------------------------------------------------------------------------------------------------------
+Tags para adicionar videos, audios e imagens:
+-------------------------------------------------------------------------------------------------------
+<audio> = para criar audios
+<video> = adicionar um video
+<img src="(imagem)" alt="(Descrição)"> = Colocar imagens
+
+=======================================================================================================
+TAGS EM HTML QUE ADICIONAM EMOJIS E FAVICON
+=======================================================================================================
+-------------------------------------------------------------------------------------------------------
+Tags para adicionar um emoji ou uma favicon:
+-------------------------------------------------------------------------------------------------------
+<link rel="shortcut icon" href="(imagem)" type="image/x-icon"> = Adicionam uma favicon para o seu site
+&#x(id); = Adiciona um emoji
+
+=======================================================================================================
+TAGS EM HTML QUE ADICIONAM EFEITOS NOS TEXTOS
+=======================================================================================================
+-------------------------------------------------------------------------------------------------------
+Tags que adiciona efeitos nos textos
+-------------------------------------------------------------------------------------------------------
+<strong> = Negrito (Semantica)
+<b> = Negrito (Não semantica)
+<em> = Italico (Semantica)
+<i>*= Itálico (Não semantica)
+<u> = Sombriamento
+<mark> = Marca texto (LITERALMENTE)
+<small>=  diminui a letra (Muito bom para adicionar em contratos rs)
+<del> = Texto excluido porem ele deve ser lido, mas não considerado.
+<ins> = server para dar uma enfase e indicar que ele foi adicionado depois.
+<sup> = Levanta um pouco a letra 
+<sub>= abaixa um pouco a letra
+<code> = Essa tag ajuda a melhorar as letras ajudando a enxegar o codigo
+<pre> = Essa tag serve para deixar o codigo arrumado
+<q> = Citação (Famosas aspas)
+<blockquote cite=(Dono da frase)> =  Indica que o texto incluído é uma longa citação.
+<bdo dir="(rlt ou lrt)"> = Shinji Hirako KKKK
+
+=======================================================================================================
+DIVS EM HTML
+=======================================================================================================
+
+-------------------------------------------------------------------------------------------------------
+Divs semanticas e não semanticas:
+
+<div> = é um container genérico para conteúdo de fluxo
+<main> = div especial, indica que o conteúdo é principal
+<footer> = rodapé
+<aside> = div especial, indica um conteúdo separado que é relacionado com o principal
+<span> = marca o texto para vc

@@ -1,0 +1,122 @@
+=======================================================================================================
+TAGS EM QUE MODIFICAM O TEXTO
+=======================================================================================================
+
+-------------------------------------------------------------------------------------------------------
+Tags que modificam o font:
+
+font-family: (font); = Muda a fonte da letra
+font-size: (Numero)px; = Aumenta a fonte do texto
+font-size: (numero)em; = Aumenta ou diminui de acordo com os px
+font-weight (Escolha); = Muda um pouco a sua fonte
+font-style (Escolha); = Muda o estilo das fontes
+
+-------------------------------------------------------------------------------------------------------
+Tags que modificam o texto:
+
+text-decoration: (Estilo); = Vão ficar com estilos
+text-ident: (numero)px; = adiciona uma identação no inicio do seu texto
+text-aling: (Escolha);  = Deixa o texto alinhado ou para centralizar
+-left= Alinha para a esquerda
+-right= Alinha para a direita
+-center= Centraliza
+-justify= Estica as linhas para que cada linha tenha a mesma largura
+-initial= Define para o valor padrão
+-inherit= Herda esta propriedade do seu elemento principal
+text-shadow: (numero)px (numero)px (numero)px #(cor); = Adiciona sombras no texto
+
+-------------------------------------------------------------------------------------------------------
+Tags que modificam a cor:
+
+color: (color); = Muda a cor da letra
+
+=======================================================================================================
+TAGS EM CSS DE CLASSE
+=======================================================================================================
+
+-------------------------------------------------------------------------------------------------------
+Tags de classes:
+
+# = id
+. = `lass
+: = pseudo-class
+:: = pseudo-element
+> = clildren
+
+-------------------------------------------------------------------------------------------------------
+Funções de classe
+
+:hover = Seleciona links ao passar o mouse
+:root = adiciona variáveis para o seu código :)
+:link = adiciona todos os links não visitados
+:visited = Seleciona todos os links visitados
+
+=======================================================================================================
+TAGS DE CSS QUE ADICIONA UMA REGRA OU UMA CONFIGURAÇÃO
+=======================================================================================================
+
+* = Configurações globais das CSS
+@ = adicionar uma regra
+
+-------------------------------------------------------------
+TAGS EM CSS QUE MODIFICAM A BOX
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Tags em css que modficam os margin:                                                                   
+
+margin-top (numero)px; = Aumenta ou diminui a margin
+margin-right (numero)px;  = Aumenta ou diminui a margin
+margin-bottom (numero)px; =  Aumenta ou diminui a margin
+margin-left (numero)px;  = Aumenta ou diminui a margin
+margin: auto; = Centraliza a margin
+
+-------------------------------------------------------------------------------------------------------
+Tags em css que modficam os outline:
+
+outline-width: (numero)px; = modifica o tamanho do autline
+outline-style: (estilo); = modifica a aparencia do outline
+outline-color: (cor); = modifica a cor do outline 
+
+-------------------------------------------------------------------------------------------------------
+Tags em css que modficam as border:
+
+border-width: (numero)px; = Modifica o tamanho do border
+border-style: (estilo); = modifica a skin do morder
+border-color: (cor); = modifica a cor do border
+border-radius: (Tamanho)px; = deixa as laterais redondas 
+border-image: url('(nome do arquivo)'); = Serve para vc colocar sua borda personalizada
+border-image-repeat: repeat = deixa sua borta que vc personalizou em pedacinhos
+border-image-repeat: stretch = deixa sua borta que vc personalizou esticado
+-------------------------------------------------------------------------------------------------------
+Tags em css que modificam o padding:
+
+padding-top: (numero)px = Aumenta o espaço da padding na box
+padding-right: (numero)px = Aumenta o espaço da padding na box 
+padding-bottom: (numero)px  = Aumenta o espaço da padding na box
+padding-left: (numero)px =  Aumenta o espaço da padding na box
+
+-------------------------------------------------------------------------------------------------------
+tags de Css que modifica o background:
+
+background-color: (color); = Muda a cor do fundo
+background-image: linear-gradient(to (Escolher o lado), (cor) (cor)); = Coloca cores em degrades
+background-image: radial-grandiente(circle, (Colors)); = Para colocar um degrade de circulo
+
+-------------------------------------------------------------------------------------------------------
+Tagas de Css que modifica o box:
+
+box-shadow: (?)px (?)px (?)px #(cor);
+
+-------------------------------------------------------------------------------------------------------
+Tags de Css que modifica a largura ou a altura da box:
+
+height: (numero)px; = motifica a altura da box
+width: (numero)px; = modifica a largura da box
+
+-------------------------------------------------------------------------------------------------------
+Tags em CSS que modificam o tipo da box:
+
+display: block; = Vc pode mudar de inline para block
+display: inline; = Vc pode mudar de block para inline
+display: inline-block; é basicamente um inline com algumas propriedades de block

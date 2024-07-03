@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'robloker';
+    src: url(idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #E8E5C2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-color: #1E6B40;
+    background-image: linear-gradient(to bottom, #218C50, #01391E);
+    box-shadow: 0px -1px 8px 4px rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    margin:auto
+}
+
+section {
+    background-color: white;
+    height: 2200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.384);
+    width: 1000px;
+    padding: 20px;
+    margin: auto
+}
+
+h1 {
+    text-align: center;
+    color: #F8FFFF;
+}
+
+#unico {
+    text-align: center;
+    padding: 10px;
+    color: #F8FFFF;
+    font-size: 19px;
+}
+
+.jo {
+    padding: 10px;
+    color: #F8FFFF;
+    text-decoration: none;
+}
+
+.jo:hover {
+    color: #044022;
+    background-color: #23884F;
+}
+
+#cavalo {
+    background-color: #043D1D;
+    text-align: center;
+    padding: 20px;
+}
+
+.a {
+    text-align: center;
+}
+
+.robo {
+    font-family: 'robloker', Helvetica, sans-serif;
+    color: #043D1D;
+}
+
+.ku {
+    padding: 1px;
+    background-color: #7FDCAC;
+}
+
+.mama {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.mama:hover {
+    text-decoration: underline;
+
+}
+
+.bola {
+    color: #043D1D;
+}
+
+#cavalus {
+    background-color: #80E1AA;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#não {
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #175C33;
+    color: white;
+    width: 980px;
+}
+
+#yag {
+    padding: 0px 10px 10px 10px;
+}
+
+#fot {
+    background-color: #124727;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+#cav {
+    padding: 5px;
+}
