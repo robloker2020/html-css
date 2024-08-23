@@ -76,6 +76,18 @@ tags de Css que modifica o background:
 background-color: (color); = Muda a cor do fundo
 background-image: linear-gradient(to (Escolher o lado), (cor) (cor)); = Coloca cores em degrades
 background-image: radial-grandiente(circle, (Colors)); = Para colocar um degrade de circulo
+background-image: url('link do documento');  serve para adicionar uma imagem de fundo 
+background-size: (numero)px (numero)px; = serve para aumentar ou diminuir o tamanho da imagem de fundo
+background-position: (posição) (posição); = serve para vc escolher a parte que vai ser mostrada na foto
+-left
+-center
+-top
+-right
+-bottom
+-contain 
+-cover
+backgroubd-repeat: no-repeat; = serve para a imagem parar de repetir imagens dela
+background-attachmet: fixed; = serve para deixar a imagem parada 
 
 -------------------------------------------------------------------------------------------------------
 Tagas de Css que modifica o shadow da box:
